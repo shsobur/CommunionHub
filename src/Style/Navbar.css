@@ -5,7 +5,7 @@
   z-index: 9999;
   position: fixed;
   background-color: white;
-  border-bottom: 2px solid #000000;
+  /* border-bottom: 2px solid #000000; */
 }
 
 .main_navbar_inner_container {
@@ -99,6 +99,14 @@
 }
 
 @media screen and (max-width: 640px) {
+  .navbar_image_outer_container span {
+    font-size: 1.8rem;
+  }
+
+  .navbar_image_outer_container img {
+    width: 45px;
+  }
+
   .navbar_menu_container {
     display: block;
   }
@@ -125,6 +133,14 @@
 }
 
 @media screen and (max-width: 475px) {
+  .navbar_image_outer_container span {
+    font-size: 1.6rem;
+  }
+
+  .navbar_image_outer_container img {
+    width: 40px;
+  }
+
   .navbar_menu_container {
     margin-left: 10px;
   }

@@ -16,7 +16,6 @@ const Navbar = () => {
     <>
       <div className="main_navbar_outer_container">
         <div className="main_navbar_inner_container">
-
           <div className="navbar_image_outer_container">
             <img src={logo} alt="logo" />
             <span>ommunionHub</span>
@@ -43,11 +42,6 @@ const Navbar = () => {
                 </li>
               </ul>
             </div>
-
-            {/* <div className="main_navbar_user_info_container">
-              <button>Sign In</button>
-              <button>Sign Up</button>
-            </div> */}
 
             <div onClick={handleIsOpen} className="navbar_menu_container">
               {isOpen ? (
