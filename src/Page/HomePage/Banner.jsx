@@ -1,5 +1,6 @@
 import "../../Style/Banner.css";
 import bannerImage from "../../assets/banner.png";
+import About from "./About";
 
 const Banner = () => {
   return (
@@ -21,6 +22,10 @@ const Banner = () => {
         <div className="banner_right_side_container">
           <img src={bannerImage} alt="Image" />
         </div>
+      </section>
+
+      <section className="main_about_container">
+        <About></About>
       </section>
     </>
   );

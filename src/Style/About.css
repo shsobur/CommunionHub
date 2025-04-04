@@ -1,0 +1,49 @@
+.about_main_inner_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about_left_side_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.about_left_side_container img {
+  width: 80%;
+}
+
+.about_right_side_container {
+  width: 50%;
+}
+
+.about_right_side_container p {
+  color: #4d4770;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.about_right_side_container h1 {
+  color: #12084f;
+  font-weight: 800;
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+}
+
+.about_right_side_container h2 {
+  color: #413972;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.about_right_side_container button {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #7537f6;
+  font-weight: 600;
+  text-decoration: underline;
+}
