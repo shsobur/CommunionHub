@@ -10,8 +10,11 @@ const Footer = () => {
         <div className="main_footer_container">
           
           <div className="footer_logo_container">
-            <img src={logo} alt="Logo" />
-            <span>ommunionHub</span>
+            <div className="footer_logo_inner_container">
+              <img src={logo} alt="Logo" />
+              <span>ommunionHub</span>
+            </div>
+            <h2>CommunionHub is a platform dedicated to bringing people together, fostering meaningful connections, and building strong communities. Join us and be part of something bigger!</h2>
           </div>
           <div className="footer_menu_container">
             <h2>MENU</h2>
@@ -41,6 +44,10 @@ const Footer = () => {
             </ul>
           </div>
 
+        </div>
+
+        <div className="footer_copyright_container">
+          <h1><span>Privacy Policy</span> | <span>Terms</span> | ©2025 <span>CommunionHub</span> | All rights reserved.</h1>
         </div>
       </footer>
     </>

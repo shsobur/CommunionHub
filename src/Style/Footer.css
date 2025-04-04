@@ -16,10 +16,15 @@ footer {
 /* _____ */
 
 .footer_logo_container {
-  color: #016bff;
+  width: 20%;
+}
+
+.footer_logo_inner_container {
   display: flex;
   align-items: flex-end;
   justify-content: flex-start;
+  color: #016bff;
+  margin-bottom: 30px;
 }
 
 .footer_logo_container img {
@@ -96,4 +101,17 @@ footer {
 .footer_social_contact_container ul li:nth-child(2) {
   text-decoration: underline;
   cursor: pointer;
+}
+
+/* _____ */
+
+.footer_copyright_container {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.footer_copyright_container span {
+  text-decoration: underline;
 }
