@@ -6,7 +6,13 @@ const Banner = () => {
   return (
     <>
       <section className="main_banner_container">
-        <div className="banner_left_side_container">
+        <div
+          data-aos="fade-right"
+          data-aos-anchor="#example-anchor"
+          data-aos-offset="500"
+          data-aos-duration="1500"
+          className="banner_left_side_container"
+        >
           <div className="banner_left_content">
             <p>VISIBILITY . CONNECTIONS . GROWTH</p>
             <h1>
