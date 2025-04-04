@@ -9,7 +9,7 @@ const Banner = () => {
           <div className="banner_left_content">
             <p>VISIBILITY . CONNECTIONS . GROWTH</p>
             <h1>
-              CommunionHub Where <br /> Connections <br /> <span>Thrive</span>.
+              CommunionHub Where Connections <br /> <span>Thrive</span>.
             </h1>
             <h2>
               Building Stronger and More Meaningful Communities, <br /> One
