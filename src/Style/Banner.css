@@ -135,6 +135,7 @@
 
 @media screen and (max-width: 768px) {
   .main_banner_container {
+    gap: 50px;
     flex-direction: column;
     line-height: normal;
     height: auto;
