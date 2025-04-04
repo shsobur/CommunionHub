@@ -1,6 +1,6 @@
 footer {
   margin-top: 100px;
-  padding: 100px 20px;
+  padding: 100px 30px;
   color: #ffffff;
   background-color: #02132b;
 }
@@ -188,5 +188,19 @@ footer {
 
   #container-4 {
     grid-column: span 5;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .footer_menu_container h2 {
+    font-size: 16px;
+  }
+
+  .footer_contact_container h2 {
+    font-size: 16px;
+  }
+
+  .footer_social_contact_container h2 {
+    font-size: 16px;
   }
 }
