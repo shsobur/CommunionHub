@@ -15,7 +15,7 @@ const About = () => {
             Builders of bespoke <br /> professional communities.
           </h1>
           <h2>
-            We partner with, and are trusted by, the most demanding and
+            We partner with, and are trusted by, the most  demanding and
             discerning business networks in the world. We provide a digital
             business model, tools, and access to trusted peers, mentors and
             other meaningful relationships that elevate a member experience into
