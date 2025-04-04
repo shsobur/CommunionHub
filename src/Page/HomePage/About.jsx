@@ -1,6 +1,6 @@
-import { MdArrowRightAlt } from "react-icons/md";
 import "../../Style/About.css";
 import aboutImage from "../../assets/About.png";
+import { MdArrowRightAlt } from "react-icons/md";
 
 const About = () => {
   return (
