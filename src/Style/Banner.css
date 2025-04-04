@@ -21,7 +21,6 @@
   color: #7177b0;
   font-weight: 700;
   padding-bottom: 30px;
-
 }
 
 .banner_left_content h1 {
@@ -77,7 +76,6 @@
   }
 }
 
-
 @media screen and (max-width: 1280px) {
   .banner_left_content p {
     font-size: 14px;
@@ -95,7 +93,6 @@
     font-size: 18px;
   }
 }
-
 
 @media screen and (max-width: 1024px) {
   .banner_left_side_container {
@@ -120,7 +117,6 @@
   }
 }
 
-
 @media screen and (max-width: 768px) {
   .main_banner_container {
     flex-direction: column;
@@ -137,12 +133,6 @@
     width: 100%;
   }
 }
-
-
-@media screen and (max-width: 640px) {
-  
-}
-
 
 @media screen and (max-width: 475px) {
   .banner_left_content h1 {
