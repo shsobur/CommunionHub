@@ -52,7 +52,11 @@
   color: #0161e7;
 }
 
-.main_event_catd_container {
+.main_event_card_container {
+  row-gap: 50px;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3 ,1fr);
   max-width: 1536px;
   margin: auto;
   margin-top: 20px;
