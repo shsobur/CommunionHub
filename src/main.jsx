@@ -4,6 +4,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import Banner from "./Page/HomePage/Banner";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Event from "./Page/EventPage/Event";
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Banner></Banner>,
+      },
+      {
+        path: "/event",
+        element: <Event></Event>,
       },
     ],
   },

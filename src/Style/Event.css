@@ -1,0 +1,61 @@
+.main_event_container {
+  margin-top: 70px;
+}
+
+.event_header_container {
+  padding: 20px;
+  text-align: center;
+  background-color: #0161e7;
+}
+
+.event_header_container h1 {
+  color: #f5f5f5;
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.event_filter_container {
+  gap: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 20px 0;
+}
+
+.event_filter_container h2 {
+  font-weight: 700;
+  padding: 0 10px;
+  border-bottom: 2px solid #0161e7;
+}
+
+.event_filters_btn_container {
+  display: flex;
+  gap: 50px;
+  font-weight: 600;
+}
+
+.event_filters_btn_container button {
+  padding: 0 20px;
+  border-radius: 8px;
+}
+
+.event_filters_btn_container button:hover {
+  transition: 0.2s ease-in-out;
+  background-color: #0161e72d;
+  color: #0161e7;
+}
+
+.event_active {
+  background-color: #0161e72d;
+  color: #0161e7;
+}
+
+.main_event_catd_container {
+  max-width: 1536px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px 50px;
+  border-top: 2px solid #abb7c7;
+}
