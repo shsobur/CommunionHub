@@ -2,7 +2,7 @@ import "../../Style/Event.css";
 import useAxios from "../../Hook/useAxios";
 import { useEffect, useState } from "react";
 import EventCard from "../../Components/EventCard";
-import Loading from "../../Components/Loading";
+import NewEvent from "../../Components/NewEvent";
 
 const Event = () => {
   const axiosPublic = useAxios();
@@ -67,6 +67,10 @@ const Event = () => {
             loading ? <div className="w-full text-2xl text-center font-bold mt-10 max-w-[1536px] m-auto ">Loading...</div> :
             events.map(event => <EventCard key={event._id} event={event}></EventCard>)
           }
+        </div>
+
+        <div className="new_event_form_container">
+          <NewEvent></NewEvent>
         </div>
       </section>
     </>

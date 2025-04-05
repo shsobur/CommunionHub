@@ -1,10 +1,10 @@
 import "./index.css";
 import Main from "./Routes/Main";
 import { StrictMode } from "react";
-import { createRoot } from "react-dom/client";
-import Banner from "./Page/HomePage/Banner";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Event from "./Page/EventPage/Event";
+import Banner from "./Page/HomePage/Banner";
+import { createRoot } from "react-dom/client";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
   {

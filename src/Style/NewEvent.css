@@ -1,0 +1,51 @@
+.new_event_title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffffff;
+  font-weight: 700;
+  background-color: #0161e7;
+}
+
+.main_new_event_from_container {
+  max-width: 768px;
+  margin: auto;
+  margin-top: 50px;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: #32325d40 0px 2px 5px -1px, #0000004d 0px 1px 3px -1px;
+  background-color: #ebebeb;
+}
+
+.new_event_form_imput_container p {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 0;
+}
+
+.new_event_form_imput_container input {
+  border: none;
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.new_event_form_imput_container select {
+  margin-top: 10px;
+  padding: 10px 50px;
+  border-radius: 4px;
+}
+
+.submit_btn_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit_btn_container button {
+  color: #ffff;
+  padding: 10px 50px;
+  border-radius: 8px;
+  font-weight: 500;
+  margin-top: 50px;
+  background-color: #0161e7;
+}

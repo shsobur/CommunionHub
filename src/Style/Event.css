@@ -63,3 +63,7 @@
   padding: 20px 50px;
   border-top: 2px solid #abb7c7;
 }
+
+.new_event_form_container {
+  margin-top: 100px;
+}
